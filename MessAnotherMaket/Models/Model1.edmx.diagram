@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18ee8e13454847688f8d39b273cc1eae" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="MessengModel.Contacts" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Group" Width="1.5" PointX="3.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Messages" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Participants" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Razgovor" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Roles" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Type_messages" Width="1.5" PointX="0.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.User_Contact" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.User_Roles" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Users" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengModel.Vlozhenia" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="MessengModel.FK_User_Contact_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Participants_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Messages_Razgovor" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Messages_Type_messages" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Messages_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Vlozhenia_Messages" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Participants_Razgovor" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_Participants_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengModel.FK_User_Contact_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
