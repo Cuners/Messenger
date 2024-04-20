@@ -23,6 +23,7 @@
             <Setter Property="Padding" Value="10,0,0,0"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="BorderBrush" Value="Gray"/>
+            
             <Setter Property="VerticalContentAlignment" Value="Center"/>
 
         </Style>
